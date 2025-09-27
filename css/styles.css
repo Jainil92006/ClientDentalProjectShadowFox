@@ -1,0 +1,8 @@
+/* small custom tweaks */
+body { -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+
+/* utility to keep hero image responsive if missing */
+img { display:block; max-width:100%; height:auto; }
+
+/* smooth icon rotation for accordion chevrons */
+.treatment-toggle svg { transition: transform 200ms ease; }
