@@ -3,517 +3,421 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Our Expert Doctors — Sakthi Dental Clinic</title>
-  <meta name="description" content="Meet our experienced team of dental specialists at Sakthi Dental Clinic. Expert care for all your dental needs in Hosur." />
+  <title>Treatments — Sakthi Dental Clinic</title>
+  <meta name="description" content="Explore Sakthi Dental Clinic treatments: cleaning, fillings, implants, orthodontics and more in Hosur." />
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="css/styles.css" />
-  <link rel="icon" href="assests/logo.png" />
 </head>
-<body class="font-sans antialiased bg-gradient-to-br from-gray-50 to-blue-50 text-gray-800">
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <!-- Logo -->
+     <a href="index.html" class="flex items-center gap-3">
+  <img src="assests/logo.png" alt="Sakthi Dental Clinic Logo" class="w-12 h-11 rounded-full shadow-md animate-fade-up visible">
+  
+  <div>
+    <h1 class="text-lg font-semibold">Sakthi Dental Clinic</h1>
+    <p class="text-xs text-gray-500">Care for Women, Children & Families</p>
+  </div>
+     </a>
 
-    <!-- NAV -->
-    <header class="bg-white shadow sticky top-0 z-50">
-      <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <!-- Logo -->
-       <a href="index.html" class="flex items-center gap-3">
-    <img src="assests/logo.png" alt="Sakthi Dental Clinic Logo" class="w-12 h-11 rounded-full shadow-md animate-fade-up visible">
-    
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="index.html" class="relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 hover:after:w-full after:transition-all">Home</a>
+        <a href="about.html" class="relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 hover:after:w-full after:transition-all">About</a>
+        <a href="doctors.html" class="relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 hover:after:w-full after:transition-all">Doctors</a>
+        <a href="treatments.html" class="relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 hover:after:w-full after:transition-all">Treatments</a>
+        <a href="contact.html" class="relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 hover:after:w-full after:transition-all">Contact</a>
+        <a href="privacy.html" class="relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 hover:after:w-full after:transition-all">Privacy</a>
+        <a href="contact.html" class="ml-4 inline-block bg-indigo-600 text-white px-4 py-2 rounded-md shadow hover:scale-105 transition">Book Now</a>
+      </nav>
 
-
-
-    <div>
-      <h1 class="text-lg font-semibold">Sakthi Dental Clinic</h1>
-      <p class="text-xs text-gray-500">Care for Women, Children & Families</p>
+      <!-- Mobile Menu Button -->
+      <button id="navToggle" class="md:hidden p-2 rounded-md focus:outline-none hover:bg-gray-100 transition">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"/>
+        </svg>
+      </button>
     </div>
-       </a>
-  
-        <!-- Desktop Nav -->
-        <nav class="hidden md:flex items-center gap-6 text-sm">
-          <a href="index.html" class="relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 hover:after:w-full after:transition-all">Home</a>
-          <a href="about.html" class="relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 hover:after:w-full after:transition-all">About</a>
-          <a href="doctors.html" class="relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 hover:after:w-full after:transition-all">Doctors</a>
-          <a href="treatments.html" class="relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 hover:after:w-full after:transition-all">Treatments</a>
-          <a href="contact.html" class="relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 hover:after:w-full after:transition-all">Contact</a>
-          <a href="privacy.html" class="relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 hover:after:w-full after:transition-all">Privacy</a>
-          <a href="contact.html" class="ml-4 inline-block bg-indigo-600 text-white px-4 py-2 rounded-md shadow hover:scale-105 transition">Book Now</a>
-        </nav>
-  
-        <!-- Mobile Menu Button -->
-        <button id="navToggle" class="md:hidden p-2 rounded-md focus:outline-none hover:bg-gray-100 transition">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"/>
-          </svg>
+
+    <!-- Mobile Nav -->
+    <div id="mobileNav" class="md:hidden hidden border-t bg-white transition-all duration-500 ease-in-out">
+      <div class="px-6 py-4 flex flex-col gap-2">
+        <a href="index.html" class="py-2">Home</a>
+        <a href="about.html" class="py-2">About</a>
+        <a href="doctors.html" class="py-2">Doctors</a>
+        <a href="treatments.html" class="py-2">Treatments</a>
+        <a href="contact.html" class="py-2">Contact</a>
+        <a href="privacy.html" class="py-2">Privacy</a>
+        <a href="contact.html" class="py-2 bg-indigo-600 text-white rounded-md text-center">Book Now</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto p-6">
+    <h2 class="text-2xl font-semibold animate-fade-up">Treatments</h2>
+    <p class="text-gray-600 mt-2 animate-fade-up">Detailed descriptions of our core treatments.</p>
+
+    <!-- Controls: search + filters -->
+    <section class="mt-6 animate-fade-up" aria-label="Search and filter treatments">
+      <div class="flex flex-col md:flex-row md:items-center gap-3">
+        <div class="relative flex-1">
+          <input id="treatmentSearch" type="search" placeholder="Search treatments (e.g., cleaning, braces)" class="w-full border rounded-md px-4 py-2 pr-9 focus:outline-none focus:ring-2 focus:ring-indigo-500" aria-label="Search treatments" />
+          <span class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400" aria-hidden="true">🔎</span>
+        </div>
+        <div class="flex flex-wrap gap-2" role="tablist" aria-label="Categories">
+          <button class="px-3 py-1.5 text-sm rounded-full border bg-white hover:bg-indigo-50 data-[active=true]:bg-indigo-600 data-[active=true]:text-white" data-filter="all" data-active="true">All</button>
+          <button class="px-3 py-1.5 text-sm rounded-full border bg-white hover:bg-indigo-50" data-filter="preventive">Preventive</button>
+          <button class="px-3 py-1.5 text-sm rounded-full border bg-white hover:bg-indigo-50" data-filter="restorative">Restorative</button>
+          <button class="px-3 py-1.5 text-sm rounded-full border bg-white hover:bg-indigo-50" data-filter="prosthodontics">Prosthodontics</button>
+          <button class="px-3 py-1.5 text-sm rounded-full border bg-white hover:bg-indigo-50" data-filter="orthodontics">Orthodontics</button>
+        </div>
+      </div>
+      <p id="noResults" class="hidden mt-3 text-sm text-gray-500">No treatments match your search. Try a different term or category.</p>
+    </section>
+
+    <section class="mt-6 grid md:grid-cols-2 gap-6 animate-fade-up" id="treatmentsGrid">
+      <!-- collapsible card -->
+      <article class="bg-white rounded-lg shadow p-4 treatment-card" data-category="preventive" data-keywords="cleaning scaling gum laser hygiene">
+         <img src="assests/Teeth_clean.png" alt="Teeth Cleaning" class="w-full h-40 object-cover rounded-md mb-3">
+        <button class="w-full text-left flex justify-between items-center treatment-toggle py-2" aria-expanded="false" aria-controls="panel-cleaning" id="toggle-cleaning">
+          <div>
+            <h3 class="font-semibold">Teeth Cleaning & Scaling</h3>
+            <p class="text-sm text-gray-500">Preventive gum care with modern laser options.</p>
+          </div>
+          <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
         </button>
-      </div>
-  
-      <!-- Mobile Nav -->
-      <div id="mobileNav" class="md:hidden hidden border-t bg-white transition-all duration-500 ease-in-out">
-        <div class="px-6 py-4 flex flex-col gap-2">
-          <a href="index.html" class="py-2">Home</a>
-          <a href="about.html" class="py-2">About</a>
-          <a href="treatments.html" class="py-2">Treatments</a>
-          <a href="contact.html" class="py-2">Contact</a>
-          <a href="privacy.html" class="py-2">Privacy</a>
-          <a href="contact.html" class="py-2 bg-indigo-600 text-white rounded-md text-center">Book Now</a>
-        </div>
-      </div>
-    </header>
+        <div id="panel-cleaning" class="treatment-panel hidden text-sm text-gray-600 mt-3" role="region" aria-labelledby="toggle-cleaning" aria-hidden="true">
+            At Sakthi Dental Clinic, we offer advanced, non-surgical gum care using modern LASER 
+            technology for precise and effective treatment. Whether you're dealing with early signs of gum 
+            disease or a more advanced condition, our skilled professionals ensure thorough cleaning to 
+            restore gum health. Scaling is advised for moderate cases to remove plaque and tartar buildup, 
+            while more severe periodontal issues may require deep cleaning procedures like root planing, 
+            supported by LASER treatment. This approach not only treats existing problems but also serves 
+            as a crucial preparatory step before any surgical intervention.</div>
+        <div class="mt-3 flex items-center gap-3 text-xs text-gray-500"><span class="px-2 py-1 rounded-full bg-indigo-50 text-indigo-700">Preventive</span><span>Approx. 30–45 mins</span></div>
+      </article>
 
-  <!-- Hero Section -->
-  <section class="max-w-6xl mx-auto px-6 py-12">
-    <div class="text-center mb-12 animate-fade-up">
-      <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Meet Our Expert Doctors</h1>
-      <p class="text-xl text-gray-600 max-w-3xl mx-auto">Experienced dental specialists dedicated to providing exceptional care for you and your family</p>
+     <article class="bg-white rounded-lg shadow p-4 treatment-card" data-category="restorative" data-keywords="filling cavity composite restoration">
+  <img src="assests/Tooth_Filling.jpg" alt="Tooth Filling" class="w-full h-40 object-cover rounded-md mb-3">
+
+  <button class="w-full text-left flex justify-between items-center treatment-toggle py-2" aria-expanded="false" aria-controls="panel-filling" id="toggle-filling">
+    <div>
+      <h3 class="font-semibold">Tooth Filling</h3>
+      <p class="text-sm text-gray-500">Composite fillings to restore damaged teeth.</p>
     </div>
+    <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+    </svg>
+  </button>
 
-    <!-- Stats Banner -->
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 animate-fade-up">
-      <div class="bg-white rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-        <div class="text-3xl font-bold text-indigo-600">20+</div>
-        <div class="text-sm text-gray-600">Years Experience</div>
-      </div>
-      <div class="bg-white rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-        <div class="text-3xl font-bold text-indigo-600">9</div>
-        <div class="text-sm text-gray-600">Specialist Doctors</div>
-      </div>
-      <div class="bg-white rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-        <div class="text-3xl font-bold text-indigo-600">10k+</div>
-        <div class="text-sm text-gray-600">Happy Patients</div>
-      </div>
-      <div class="bg-white rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-        <div class="text-3xl font-bold text-indigo-600">98%</div>
-        <div class="text-sm text-gray-600">Success Rate</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Doctors Grid -->
-  <div class="max-w-7xl mx-auto px-6 pb-12">
-    <div class="grid lg:grid-cols-2 gap-8">
-      
-      <!-- Dr. Anupriya - Founder -->
-      <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 overflow-hidden animate-fade-up">
-        <div class="relative">
-          <img src="assests/doctors.jpg" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500" alt="Dr. Anupriya">
-          <div class="absolute top-4 right-4 bg-indigo-600 text-white px-3 py-1 rounded-full text-sm font-semibold">Founder</div>
-        </div>
-        <div class="p-6">
-          <h3 class="text-2xl font-bold text-gray-800 mb-2">Dr. Anupriya</h3>
-          <p class="text-indigo-600 font-semibold mb-3">Founder & Chief Dentist</p>
-          <p class="text-gray-600 text-sm mb-4">BDS, 20+ years experience • Government Dental College Graduate</p>
-          <p class="text-gray-700 text-sm leading-relaxed mb-4">Leading dental care with over two decades of expertise. Specializes in comprehensive family dentistry and preventive care.</p>
-          
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">General Dentistry</span>
-            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs">Preventive Care</span>
-            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-xs">Family Care</span>
-          </div>
-
-          <div class="flex items-center justify-between mb-4">
-            <div class="flex items-center gap-4">
-              <div class="text-center">
-                <div class="text-lg font-bold text-indigo-600">4.9</div>
-                <div class="text-xs text-gray-500">Rating</div>
-              </div>
-              <div class="text-center">
-                <div class="text-lg font-bold text-indigo-600">500+</div>
-                <div class="text-xs text-gray-500">Patients</div>
-              </div>
-            </div>
-            <div class="text-right">
-              <div class="text-sm text-gray-500">Consultation Fee</div>
-              <div class="text-lg font-bold text-gray-800">₹350</div>
-            </div>
-          </div>
-
-          <button class="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105 shadow-lg">
-            Book Consultation
-          </button>
-        </div>
-      </div>
-
-      <!-- Dr. Ananya Iyer -->
-      <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 overflow-hidden animate-fade-up">
-        <div class="relative">
-          <img src="assests/doctors.jpg" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500" alt="Dr. Ananya Iyer">
-          <div class="absolute top-4 right-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-semibold">Prosthodontist</div>
-        </div>
-        <div class="p-6">
-          <h3 class="text-2xl font-bold text-gray-800 mb-2">Dr. Ananya Iyer</h3>
-          <p class="text-green-600 font-semibold mb-3">Prosthodontist</p>
-          <p class="text-gray-600 text-sm mb-4">BDS, 7+ years experience • Specialized in Prosthodontics</p>
-          <p class="text-gray-700 text-sm leading-relaxed mb-4">Expert in dental prosthetics, crowns, bridges, and dentures. Committed to restoring your smile with precision and care.</p>
-          
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs">Crowns & Bridges</span>
-            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">Dentures</span>
-            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-xs">Cosmetic</span>
-          </div>
-
-          <div class="flex items-center justify-between mb-4">
-            <div class="flex items-center gap-4">
-              <div class="text-center">
-                <div class="text-lg font-bold text-indigo-600">4.8</div>
-                <div class="text-xs text-gray-500">Rating</div>
-              </div>
-              <div class="text-center">
-                <div class="text-lg font-bold text-indigo-600">300+</div>
-                <div class="text-xs text-gray-500">Patients</div>
-              </div>
-            </div>
-            <div class="text-right">
-              <div class="text-sm text-gray-500">Consultation Fee</div>
-              <div class="text-lg font-bold text-gray-800">₹400</div>
-            </div>
-          </div>
-
-          <button class="w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105 shadow-lg">
-            Book Consultation
-          </button>
-        </div>
-      </div>
-
-      <!-- Dr. Meera Subramanian -->
-      <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 overflow-hidden animate-fade-up">
-        <div class="relative">
-          <img src="assests/doctors.jpg" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500" alt="Dr. Meera Subramanian">
-          <div class="absolute top-4 right-4 bg-red-600 text-white px-3 py-1 rounded-full text-sm font-semibold">Endodontist</div>
-        </div>
-        <div class="p-6">
-          <h3 class="text-2xl font-bold text-gray-800 mb-2">Dr. Meera Subramanian</h3>
-          <p class="text-red-600 font-semibold mb-3">Endodontist</p>
-          <p class="text-gray-600 text-sm mb-4">BDS, 9+ years experience • Root Canal Specialist</p>
-          <p class="text-gray-700 text-sm leading-relaxed mb-4">Specialized in root canal treatments and endodontic procedures. Making complex treatments comfortable and pain-free.</p>
-          
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-xs">Root Canal</span>
-            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">Endodontics</span>
-            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs">Pain Relief</span>
-          </div>
-
-          <div class="flex items-center justify-between mb-4">
-            <div class="flex items-center gap-4">
-              <div class="text-center">
-                <div class="text-lg font-bold text-indigo-600">4.9</div>
-                <div class="text-xs text-gray-500">Rating</div>
-              </div>
-              <div class="text-center">
-                <div class="text-lg font-bold text-indigo-600">400+</div>
-                <div class="text-xs text-gray-500">Patients</div>
-              </div>
-            </div>
-            <div class="text-right">
-              <div class="text-sm text-gray-500">Consultation Fee</div>
-              <div class="text-lg font-bold text-gray-800">₹450</div>
-            </div>
-          </div>
-
-          <button class="w-full bg-red-600 hover:bg-red-700 text-white py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105 shadow-lg">
-            Book Consultation
-          </button>
-        </div>
-      </div>
-
-      <!-- Dr. Arvind Kumar -->
-      <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 overflow-hidden animate-fade-up">
-        <div class="relative">
-          <img src="assests/doctor.jpg" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500" alt="Dr. Arvind Kumar">
-          <div class="absolute top-4 right-4 bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-semibold">Surgeon</div>
-        </div>
-        <div class="p-6">
-          <h3 class="text-2xl font-bold text-gray-800 mb-2">Dr. Arvind Kumar</h3>
-          <p class="text-purple-600 font-semibold mb-3">Dental Surgeon</p>
-          <p class="text-gray-600 text-sm mb-4">BDS, 8+ years experience • Oral & Maxillofacial Surgery</p>
-          <p class="text-gray-700 text-sm leading-relaxed mb-4">Expert in dental surgeries, extractions, and complex oral procedures. Ensuring safe and comfortable surgical experiences.</p>
-          
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-xs">Surgery</span>
-            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">Extractions</span>
-            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs">Implants</span>
-          </div>
-
-          <div class="flex items-center justify-between mb-4">
-            <div class="flex items-center gap-4">
-              <div class="text-center">
-                <div class="text-lg font-bold text-indigo-600">4.7</div>
-                <div class="text-xs text-gray-500">Rating</div>
-              </div>
-              <div class="text-center">
-                <div class="text-lg font-bold text-indigo-600">350+</div>
-                <div class="text-xs text-gray-500">Patients</div>
-              </div>
-            </div>
-            <div class="text-right">
-              <div class="text-sm text-gray-500">Consultation Fee</div>
-              <div class="text-lg font-bold text-gray-800">₹500</div>
-            </div>
-          </div>
-
-          <button class="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105 shadow-lg">
-            Book Consultation
-          </button>
-        </div>
-      </div>
-
-      <!-- Dr. Sneha N -->
-      <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 overflow-hidden animate-fade-up">
-        <div class="relative">
-          <img src="assests/doctors.jpg" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500" alt="Dr. Sneha N">
-          <div class="absolute top-4 right-4 bg-pink-600 text-white px-3 py-1 rounded-full text-sm font-semibold">Orthodontist</div>
-        </div>
-        <div class="p-6">
-          <h3 class="text-2xl font-bold text-gray-800 mb-2">Dr. Sneha N</h3>
-          <p class="text-pink-600 font-semibold mb-3">Orthodontist</p>
-          <p class="text-gray-600 text-sm mb-4">BDS, 6+ years experience • Braces & Aligners Specialist</p>
-          <p class="text-gray-700 text-sm leading-relaxed mb-4">Specialized in teeth straightening with braces and aligners. Creating beautiful, confident smiles for all ages.</p>
-          
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-xs">Braces</span>
-            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">Aligners</span>
-            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs">Teeth Straightening</span>
-          </div>
-
-          <div class="flex items-center justify-between mb-4">
-            <div class="flex items-center gap-4">
-              <div class="text-center">
-                <div class="text-lg font-bold text-indigo-600">4.8</div>
-                <div class="text-xs text-gray-500">Rating</div>
-              </div>
-              <div class="text-center">
-                <div class="text-lg font-bold text-indigo-600">250+</div>
-                <div class="text-xs text-gray-500">Patients</div>
-              </div>
-            </div>
-            <div class="text-right">
-              <div class="text-sm text-gray-500">Consultation Fee</div>
-              <div class="text-lg font-bold text-gray-800">₹400</div>
-            </div>
-          </div>
-
-          <button class="w-full bg-pink-600 hover:bg-pink-700 text-white py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105 shadow-lg">
-            Book Consultation
-          </button>
-        </div>
-      </div>
-
-      <!-- Dr. Srinivas Rohit Ramanujam -->
-      <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 overflow-hidden animate-fade-up">
-        <div class="relative">
-          <img src="assests/doctor.jpg" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500" alt="Dr. Srinivas Rohit Ramanujam">
-          <div class="absolute top-4 right-4 bg-orange-600 text-white px-3 py-1 rounded-full text-sm font-semibold">Implantologist</div>
-        </div>
-        <div class="p-6">
-          <h3 class="text-2xl font-bold text-gray-800 mb-2">Dr. Srinivas Rohit Ramanujam</h3>
-          <p class="text-orange-600 font-semibold mb-3">Implantologist</p>
-          <p class="text-gray-600 text-sm mb-4">BDS, 10+ years experience • Dental Implant Specialist</p>
-          <p class="text-gray-700 text-sm leading-relaxed mb-4">Expert in dental implants and advanced restorative procedures. Restoring function and aesthetics with precision.</p>
-          
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-xs">Implants</span>
-            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">Restoration</span>
-            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs">Cosmetic</span>
-          </div>
-
-          <div class="flex items-center justify-between mb-4">
-            <div class="flex items-center gap-4">
-              <div class="text-center">
-                <div class="text-lg font-bold text-indigo-600">4.9</div>
-                <div class="text-xs text-gray-500">Rating</div>
-              </div>
-              <div class="text-center">
-                <div class="text-lg font-bold text-indigo-600">200+</div>
-                <div class="text-xs text-gray-500">Patients</div>
-              </div>
-            </div>
-            <div class="text-right">
-              <div class="text-sm text-gray-500">Consultation Fee</div>
-              <div class="text-lg font-bold text-gray-800">₹600</div>
-            </div>
-          </div>
-
-          <button class="w-full bg-orange-600 hover:bg-orange-700 text-white py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105 shadow-lg">
-            Book Consultation
-          </button>
-        </div>
-      </div>
-
-      <!-- Dr. Balu -->
-      <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 overflow-hidden animate-fade-up">
-        <div class="relative">
-          <img src="assests/doctor.jpg" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500" alt="Dr. Balu">
-          <div class="absolute top-4 right-4 bg-teal-600 text-white px-3 py-1 rounded-full text-sm font-semibold">Laser Surgeon</div>
-        </div>
-        <div class="p-6">
-          <h3 class="text-2xl font-bold text-gray-800 mb-2">Dr. Balu</h3>
-          <p class="text-teal-600 font-semibold mb-3">Laser Surgeon</p>
-          <p class="text-gray-600 text-sm mb-4">BDS, 12+ years experience • Advanced Laser Dentistry Specialist</p>
-          <p class="text-gray-700 text-sm leading-relaxed mb-4">Pioneer in laser dentistry with advanced techniques for painless, precise treatments. Minimally invasive procedures for better patient comfort.</p>
-          
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-xs">Laser Surgery</span>
-            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">Minimally Invasive</span>
-            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs">Painless Treatment</span>
-          </div>
-
-          <div class="flex items-center justify-between mb-4">
-            <div class="flex items-center gap-4">
-              <div class="text-center">
-                <div class="text-lg font-bold text-indigo-600">4.8</div>
-                <div class="text-xs text-gray-500">Rating</div>
-              </div>
-              <div class="text-center">
-                <div class="text-lg font-bold text-indigo-600">180+</div>
-                <div class="text-xs text-gray-500">Patients</div>
-              </div>
-            </div>
-            <div class="text-right">
-              <div class="text-sm text-gray-500">Consultation Fee</div>
-              <div class="text-lg font-bold text-gray-800">₹550</div>
-            </div>
-          </div>
-
-          <button class="w-full bg-teal-600 hover:bg-teal-700 text-white py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105 shadow-lg">
-            Book Consultation
-          </button>
-        </div>
-      </div>
-
-      <!-- Dr. Vikram Raj Kishore -->
-      <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 overflow-hidden animate-fade-up">
-        <div class="relative">
-          <img src="assests/doctors.jpg" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500" alt="Dr. Vikram Raj Kishore">
-          <div class="absolute top-4 right-4 bg-cyan-600 text-white px-3 py-1 rounded-full text-sm font-semibold">Aligners Partner</div>
-        </div>
-        <div class="p-6">
-          <h3 class="text-2xl font-bold text-gray-800 mb-2">Dr. Vikram Raj Kishore</h3>
-          <p class="text-cyan-600 font-semibold mb-3">Aligners Partner</p>
-          <p class="text-gray-600 text-sm mb-4">BDS, 8+ years experience • Clear Aligners & Orthodontics Specialist</p>
-          <p class="text-gray-700 text-sm leading-relaxed mb-4">Specialized in clear aligner treatments and modern orthodontics. Creating invisible solutions for perfect smiles with cutting-edge technology.</p>
-          
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="bg-cyan-100 text-cyan-800 px-3 py-1 rounded-full text-xs">Clear Aligners</span>
-            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">Invisible Braces</span>
-            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs">Digital Orthodontics</span>
-          </div>
-
-          <div class="flex items-center justify-between mb-4">
-            <div class="flex items-center gap-4">
-              <div class="text-center">
-                <div class="text-lg font-bold text-indigo-600">4.7</div>
-                <div class="text-xs text-gray-500">Rating</div>
-              </div>
-              <div class="text-center">
-                <div class="text-lg font-bold text-indigo-600">150+</div>
-                <div class="text-xs text-gray-500">Patients</div>
-              </div>
-            </div>
-            <div class="text-right">
-              <div class="text-sm text-gray-500">Consultation Fee</div>
-              <div class="text-lg font-bold text-gray-800">₹450</div>
-            </div>
-          </div>
-
-          <button class="w-full bg-cyan-600 hover:bg-cyan-700 text-white py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105 shadow-lg">
-            Book Consultation
-          </button>
-        </div>
-      </div>
-
-      <!-- Dr. Ajay Jumar -->
-      <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 overflow-hidden animate-fade-up">
-        <div class="relative">
-          <img src="assests/doctor.jpg" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500" alt="Dr. Ajay Jumar">
-          <div class="absolute top-4 right-4 bg-rose-600 text-white px-3 py-1 rounded-full text-sm font-semibold">Oral Surgeon</div>
-        </div>
-        <div class="p-6">
-          <h3 class="text-2xl font-bold text-gray-800 mb-2">Dr. Ajay Jumar</h3>
-          <p class="text-rose-600 font-semibold mb-3">Oral & Maxillofacial Surgeon</p>
-          <p class="text-gray-600 text-sm mb-4">BDS, 15+ years experience • Complex Oral Surgery Specialist</p>
-          <p class="text-gray-700 text-sm leading-relaxed mb-4">Expert in complex oral and maxillofacial surgeries. Specialized in facial trauma, jaw surgeries, and advanced oral procedures with precision and care.</p>
-          
-          <div class="flex flex-wrap gap-2 mb-4">
-            <span class="bg-rose-100 text-rose-800 px-3 py-1 rounded-full text-xs">Oral Surgery</span>
-            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs">Jaw Surgery</span>
-            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs">Facial Trauma</span>
-          </div>
-
-          <div class="flex items-center justify-between mb-4">
-            <div class="flex items-center gap-4">
-              <div class="text-center">
-                <div class="text-lg font-bold text-indigo-600">4.9</div>
-                <div class="text-xs text-gray-500">Rating</div>
-              </div>
-              <div class="text-center">
-                <div class="text-lg font-bold text-indigo-600">300+</div>
-                <div class="text-xs text-gray-500">Patients</div>
-              </div>
-            </div>
-            <div class="text-right">
-              <div class="text-sm text-gray-500">Consultation Fee</div>
-              <div class="text-lg font-bold text-gray-800">₹700</div>
-            </div>
-          </div>
-
-          <button class="w-full bg-rose-600 hover:bg-rose-700 text-white py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105 shadow-lg">
-            Book Consultation
-          </button>
-        </div>
-      </div>
-
-    </div>
+  <div id="panel-filling" class="treatment-panel hidden text-sm text-gray-600 mt-3" role="region" aria-labelledby="toggle-filling" aria-hidden="true">
+    At Sakthi Dental Clinic, we specialize in restoring smiles through expert tooth filling services. 
+    Whether tooth damage is caused by cavities, trauma, or wear from habits like teeth grinding or
+    nail-biting, our team uses high-quality materials and the latest techniques to repair and protect 
+    your teeth. We focus on sealing gaps effectively to prevent future decay and ensure long-term 
+    oral health. Our goal is to preserve your natural tooth structure while enhancing both function 
+    and appearance, giving you a healthier, more confident smile.
   </div>
 
-  <!-- Call to Action Section -->
-  <section class="max-w-6xl mx-auto px-6 py-16">
-    <div class="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl p-8 text-center text-white animate-fade-up">
-      <h2 class="text-3xl font-bold mb-4">Ready to Book Your Appointment?</h2>
-      <p class="text-xl mb-6 opacity-90">Choose your preferred doctor and schedule your consultation today</p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="tel:+919862890897" class="bg-white text-indigo-600 px-8 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-all duration-300 hover:scale-105 shadow-lg">
-          Call Now: +91 9862890897
-        </a>
-        <a href="contact.html" class="border-2 border-white text-white px-8 py-3 rounded-xl font-semibold hover:bg-white hover:text-indigo-600 transition-all duration-300 hover:scale-105">
-          Contact Us
-        </a>
-      </div>
-    </div>
-  </section>
+  <div class="mt-3 flex items-center gap-3 text-xs text-gray-500">
+    <span class="px-2 py-1 rounded-full bg-emerald-50 text-emerald-700">Restorative</span>
+    <span>Single visit</span>
+  </div>
+</article>
 
-  <!-- Footer -->
-  <footer class="mt-16 border-t pt-8 pb-12 animate-fade-up">
-    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-6 px-6">
-      <div>
-        <h4 class="font-semibold">Sakthi Dental Clinic</h4>
-        <p class="text-sm text-gray-600 mt-2">B2/8, SBM Layout, Anthivadi, Hosur, Tamil Nadu 635109</p>
-        <p class="text-sm text-gray-600 mt-2">📞 +91 9862890897</p>
-      </div>
-      <div>
-        <h4 class="font-semibold">Quick Links</h4>
-        <ul class="mt-2 text-sm text-gray-600 space-y-1">
-          <li><a href="about.html">About</a></li>
-          <li><a href="doctors.html">Doctors</a></li>
-          <li><a href="treatments.html">Treatments</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="privacy.html">Privacy Policy</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4 class="font-semibold">Key Treatments</h4>
-        <ul class="mt-2 text-sm text-gray-600 space-y-1">
-          <li>Teeth Cleaning</li>
-          <li>Tooth Filling</li>
-          <li>Implants</li>
-          <li>Orthodontics</li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+
+      <article class="bg-white rounded-lg shadow p-4 treatment-card" data-category="prosthodontics" data-keywords="implant implants titanium crown replacement missing tooth">
+         <img src="assests/implants.png" alt="Dental Implants" class="w-full h-40 object-cover rounded-md mb-3">
+        <button class="w-full text-left flex justify-between items-center treatment-toggle py-2" aria-expanded="false" aria-controls="panel-implants" id="toggle-implants">
+          <div>
+            <h3 class="font-semibold">Dental Implants</h3>
+            <p class="text-sm text-gray-500">Long-lasting solution to replace missing teeth.</p>
+          </div>
+          <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div id="panel-implants" class="treatment-panel hidden text-sm text-gray-600 mt-3" role="region" aria-labelledby="toggle-implants" aria-hidden="true">
+            Dental implants at Sakthi Dental Clinic offer a modern and reliable solution for replacing 
+            missing teeth. Using biocompatible materials like titanium, we securely place artificial roots into 
+            the jawbone, creating a stable foundation for prosthetic teeth. Our advanced implant procedures 
+            restore both the appearance and strength of your smile, ensuring a natural feel and long-lasting 
+            results. Trust our experienced team to help you regain optimal oral function and confidence with 
+            cutting-edge implant technology.</div>
+        <div class="mt-3 flex items-center gap-3 text-xs text-gray-500">
+            <span class="px-2 py-1 rounded-full bg-amber-50 text-amber-700">Prosthodontics</span>
+            <span>Multi-visit plan</span></div>
+      </article>
+
+      <article class="bg-white rounded-lg shadow p-4 treatment-card" data-category="orthodontics" data-keywords="braces aligner orthodontic teeth straightening">
+         <img src="assests/Orthodonic_Treatment.png" alt="Orthodontic Treatment" class="w-full h-40 object-cover rounded-md mb-3">
+        <button class="w-full text-left flex justify-between items-center treatment-toggle py-2" aria-expanded="false" aria-controls="panel-ortho" id="toggle-ortho">
+          <div>
+            <h3 class="font-semibold">Orthodontic Braces & Aligners</h3>
+            <p class="text-sm text-gray-500">Traditional braces and clear aligners available.</p>
+          </div>
+          <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div id="panel-ortho" class="treatment-panel hidden text-sm text-gray-600 mt-3" role="region" aria-labelledby="toggle-ortho" aria-hidden="true">
+            Correct misaligned teeth with customized orthodontic treatments at Sakthi Dental Clinic. We 
+            offer a variety of braces—metal, ceramic, or lingual—to suit your preferences. Our goal is to 
+            achieve improved alignment, better bite function, and a confident, harmonious smile.</div>
+        <div class="mt-3 flex items-center gap-3 text-xs text-gray-500">
+            <span class="px-2 py-1 rounded-full bg-fuchsia-50 text-fuchsia-700">Orthodontics</span>
+            <span>Plan varies</span></div>
+      </article>
+
+
+
+
+      <article class="bg-white rounded-lg shadow p-4 treatment-card" data-category="restorative" data-keywords="cleaning scaling gum laser hygiene">
+         <img src="assests/Teeth_Extraction.png" alt="Teeth Extraction" class="w-full h-40 object-cover rounded-md mb-3">
+        <button class="w-full text-left flex justify-between items-center treatment-toggle py-2" aria-expanded="false" aria-controls="panel-cleaning" id="toggle-cleaning">
+          <div>
+            <h3 class="font-semibold">Tooth Extraction</h3>
+            <p class="text-sm text-gray-500">Pain management and gentle techniques.</p>
+          </div>
+          <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div id="panel-cleaning" class="treatment-panel hidden text-sm text-gray-600 mt-3" role="region" aria-labelledby="toggle-cleaning" aria-hidden="true">
+           When a tooth is beyond repair, Sakthi Dental Clinic ensures that the extraction process is 
+           handled with the utmost care and comfort. Our experienced dental team evaluates every option 
+           before recommending removal, but when necessary, we perform extractions using gentle 
+           techniques to minimize discomfort. We prioritize creating a stress-free environment, explaining 
+           each step to our patients. Your health and comfort are always our focus, and we aim to make 
+           tooth extraction as smooth and painless as possible, supporting you through every stage of recovery. </div>
+        <div class="mt-3 flex items-center gap-3 text-xs text-gray-500">
+            <span class="px-2 py-1 rounded-full bg-emerald-50 text-emerald-700">Restorative</span>
+            <span>Approx. 20–45 mins</span></div>
+      </article>
+
+
+
+
+      <article class="bg-white rounded-lg shadow p-4 treatment-card" data-category="prosthodontics" data-keywords="cleaning scaling gum laser hygiene">
+         <img src="assests/Artificial_Complete_Denture.png" alt="Artificial Complete Denture" class="w-full h-40 object-cover rounded-md mb-3">
+        <button class="w-full text-left flex justify-between items-center treatment-toggle py-2" aria-expanded="false" aria-controls="panel-cleaning" id="toggle-cleaning">
+          <div>
+            <h3 class="font-semibold">Artificial Complete Denture</h3>
+            <p class="text-sm text-gray-500">Custom-fit dentures for optimal comfort.</p>
+          </div>
+          <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div id="panel-cleaning" class="treatment-panel hidden text-sm text-gray-600 mt-3" role="region" aria-labelledby="toggle-cleaning" aria-hidden="true">
+           At Sakthi Dental Clinic, we craft high-quality complete dentures to restore both function and 
+           aesthetics for patients with missing teeth. Our dentures are designed with precision using durable 
+           materials, providing a natural look and a comfortable fit. Whether you're replacing several teeth 
+           or a full arch, our customized solutions help you regain confidence and improve daily 
+           functionality. We focus on delivering practical, long-lasting dentures that enhance your smile and 
+           overall oral health. 
+        </div>
+        <div class="mt-3 flex items-center gap-3 text-xs text-gray-500">
+            <span class="px-2 py-1 rounded-full bg-amber-50 text-amber-700">Prosthodontics</span>
+            <span>Approx. 10–45 mins</span></div>
+      </article>
+
+
+
+
+      <article class="bg-white rounded-lg shadow p-4 treatment-card" data-category="restorative" data-keywords="cleaning scaling gum laser hygiene">
+         <img src="assests/Laser_Surgery.png" alt="Laser Surgery" class="w-full h-40 object-cover rounded-md mb-3">
+        <button class="w-full text-left flex justify-between items-center treatment-toggle py-2" aria-expanded="false" aria-controls="panel-cleaning" id="toggle-cleaning">
+          <div>
+            <h3 class="font-semibold">Laser Dentistry</h3>
+            <p class="text-sm text-gray-500">Advanced laser treatments for precise dental care.</p>
+          </div>
+          <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div id="panel-cleaning" class="treatment-panel hidden text-sm text-gray-600 mt-3" role="region" aria-labelledby="toggle-cleaning" aria-hidden="true">
+           At Sakthi Dental Clinic, we utilize advanced laser technology to perform precise, minimally 
+           invasive dental treatments. From soft tissue surgeries to gum care, laser procedures offer faster 
+           healing, reduced discomfort, and enhanced accuracy. Whether you're undergoing gum reshaping 
+           or other corrective treatments, our state-of-the-art laser equipment ensures efficient, safe, and 
+           comfortable care tailored to your needs. 
+        </div>
+        <div class="mt-3 flex items-center gap-3 text-xs text-gray-500">
+            <span class="px-2 py-1 rounded-full bg-emerald-50 text-emerald-700">Restorative</span>
+            <span>Approx. 25–45 mins</span>
+        </div>
+      </article>
+
+
+
+      <article class="bg-white rounded-lg shadow p-4 treatment-card" data-category="restorative" data-keywords="cleaning scaling gum laser hygiene">
+         <img src="assestS/Root _Canal_Treatment.png" alt="Laser Surgery" class="w-full h-40 object-cover rounded-md mb-3">
+        <button class="w-full text-left flex justify-between items-center treatment-toggle py-2" aria-expanded="false" aria-controls="panel-cleaning" id="toggle-cleaning">
+          <div>
+            <h3 class="font-semibold">Root Canal Therapy</h3>
+            <p class="text-sm text-gray-500">Advanced techniques for effective root canal treatment.</p>
+          </div>
+          <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div id="panel-cleaning" class="treatment-panel hidden text-sm text-gray-600 mt-3" role="region" aria-labelledby="toggle-cleaning" aria-hidden="true">
+           When tooth infections reach deep into the pulp, root canal treatment becomes essential. At 
+           Sakthi Dental Clinic, we carefully remove infected tissue, clean the area thoroughly, and seal 
+           the tooth to prevent future issues. Our focus is on relieving pain, eliminating infection, and 
+           preserving your natural tooth structure for long-term dental health.
+        </div>
+        <div class="mt-3 flex items-center gap-3 text-xs text-gray-500">
+     <span class="px-2 py-1 rounded-full bg-emerald-50 text-emerald-700">Restorative</span>       
+     <span>Approx. 20–45 mins</span></div>
+      </article>
+
+
+
+      <article class="bg-white rounded-lg shadow p-4 treatment-card" data-category="restorative" data-keywords="cleaning scaling gum laser hygiene">
+         <img src="assests/Wisdom_Teeth_Removal.png" alt="Wisdom Tooth Extraction" class="w-full h-40 object-cover rounded-md mb-3">
+        <button class="w-full text-left flex justify-between items-center treatment-toggle py-2" aria-expanded="false" aria-controls="panel-cleaning" id="toggle-cleaning">
+          <div>
+            <h3 class="font-semibold">Wisdom Tooth Extraction</h3>
+            <p class="text-sm text-gray-500">Advanced techniques for effective wisdom tooth extraction.</p>
+          </div>
+          <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div id="panel-cleaning" class="treatment-panel hidden text-sm text-gray-600 mt-3" role="region" aria-labelledby="toggle-cleaning" aria-hidden="true">
+          If impacted or problematic, wisdom teeth can cause discomfort and oral health risks. At Sakthi 
+          Dental Clinic, we specialize in gentle and effective wisdom tooth removal, using modern 
+          techniques and anesthesia options to ensure a smooth, pain-free experience. We also provide 
+          comprehensive post-operative care to support quick recovery and lasting comfort.
+        </div>
+        <div class="mt-3 flex items-center gap-3 text-xs text-gray-500">
+            <span class="px-2 py-1 rounded-full bg-emerald-50 text-emerald-700">Restorative</span>
+            <span>Approx. 10–45 mins</span></div>
+      </article>
+
+
+
+      <article class="bg-white rounded-lg shadow p-4 treatment-card" data-category="prosthodontics" data-keywords="cleaning scaling gum laser hygiene">
+         <img src="assests/Fixed_Partial_Denture.png" alt="Fixed Partial Denture (Bridge)" class="w-full h-40 object-cover rounded-md mb-3">
+        <button class="w-full text-left flex justify-between items-center treatment-toggle py-2" aria-expanded="false" aria-controls="panel-cleaning" id="toggle-cleaning">
+          <div>
+            <h3 class="font-semibold">Fixed Partial Denture (Bridge)</h3>
+            <p class="text-sm text-gray-500">Advanced techniques for effective fixed partial denture placement.</p>
+          </div>
+          <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div id="panel-cleaning" class="treatment-panel hidden text-sm text-gray-600 mt-3" role="region" aria-labelledby="toggle-cleaning" aria-hidden="true">
+         Our expertly crafted fixed partial dentures offer a secure solution for replacing missing teeth by 
+         anchoring prosthetic teeth to adjacent natural teeth or implants. At Sakthi Dental Clinic, we 
+         focus on custom-made dental bridges that restore your smile’s appearance while improving 
+         chewing function and maintaining oral stability.
+        </div>
+        <div class="mt-3 flex items-center gap-3 text-xs text-gray-500">
+            <span class="px-2 py-1 rounded-full bg-amber-50 text-amber-700">Prosthodontics</span>
+            <span>Approx. 15–45 mins</span></div>
+      </article>
+
+
+
+      
+      <article class="bg-white rounded-lg shadow p-4 treatment-card" data-category="preventive" data-keywords="cleaning scaling gum laser hygiene">
+         <img src="assests/Bleaching.png" alt="Teeth Whitening (Bleaching)" class="w-full h-40 object-cover rounded-md mb-3">
+        <button class="w-full text-left flex justify-between items-center treatment-toggle py-2" aria-expanded="false" aria-controls="panel-cleaning" id="toggle-cleaning">
+          <div>
+            <h3 class="font-semibold">Teeth Whitening (Bleaching)</h3>
+            <p class="text-sm text-gray-500">Advanced techniques for effective teeth whitening and bleaching.</p>
+          </div>
+          <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div id="panel-cleaning" class="treatment-panel hidden text-sm text-gray-600 mt-3" role="region" aria-labelledby="toggle-cleaning" aria-hidden="true">
+         Brighten your smile with professional teeth whitening services at Sakthi Dental Clinic. We 
+         treat both external and internal stains, using safe bleaching agents to lighten your teeth by several 
+         shades. Whether addressing discoloration from food, beverages, or age, our whitening treatments 
+         restore your smile's natural radiance and boost your confidence.
+        </div>
+        <div class="mt-3 flex items-center gap-3 text-xs text-gray-500"><span class="px-2 py-1 rounded-full bg-indigo-50 text-indigo-700">Preventive</span><span>Approx. 20–45 mins</span></div>
+      </article>
+
+
+       <article class="bg-white rounded-lg shadow p-4 treatment-card" data-category="preventive" data-keywords="cleaning scaling gum laser hygiene">
+         <img src="assests/Veneer_Treatment.jpg" alt="Veneers" class="w-full h-40 object-cover rounded-md mb-3">
+        <button class="w-full text-left flex justify-between items-center treatment-toggle py-2" aria-expanded="false" aria-controls="panel-cleaning" id="toggle-cleaning">
+          <div>
+            <h3 class="font-semibold">Veneers</h3>
+            <p class="text-sm text-gray-500">Custom-made shells to cover the front surface of teeth.</p>
+          </div>
+          <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div id="panel-cleaning" class="treatment-panel hidden text-sm text-gray-600 mt-3" role="region" aria-labelledby="toggle-cleaning" aria-hidden="true">
+         Transform your smile with dental veneers—thin, custom-made shells designed to cover 
+         imperfections such as chips, gaps, or discoloration. At Sakthi Dental Clinic, we offer 
+         high-quality veneers that enhance your teeth’s appearance, giving you a flawless and 
+         natural-looking smile. 
+        </div>
+        <div class="mt-3 flex items-center gap-3 text-xs text-gray-500">
+      <span class="px-2 py-1 rounded-full bg-amber-50 text-amber-700">Prosthodontics</span>           
+      <span>Approx. 20–30 mins</span></div>
+      </article>
+
+
+      <article class="bg-white rounded-lg shadow p-4 treatment-card" data-category="preventive" data-keywords="cleaning scaling gum laser hygiene">
+         <img src="assests/Pediatric_dentistry.png" alt="Pediatric Dentistry" class="w-full h-40 object-cover rounded-md mb-3">
+        <button class="w-full text-left flex justify-between items-center treatment-toggle py-2" aria-expanded="false" aria-controls="panel-cleaning" id="toggle-cleaning">
+          <div>
+            <h3 class="font-semibold">Pediatric Dentistry</h3>
+            <p class="text-sm text-gray-500">Specialized dental care for children.</p>
+          </div>
+          <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div id="panel-cleaning" class="treatment-panel hidden text-sm text-gray-600 mt-3" role="region" aria-labelledby="toggle-cleaning" aria-hidden="true">
+         At Sakthi Dental Clinic, we provide gentle and comprehensive dental care for children. Our 
+         friendly team creates a welcoming environment, ensuring young patients feel safe and 
+         comfortable during their visits. From routine check-ups to preventive treatments, we focus on 
+         building healthy dental habits for a lifetime of bright smiles.
+        </div>
+        <div class="mt-3 flex items-center gap-3 text-xs text-gray-500"><span class="px-2 py-1 rounded-full bg-indigo-50 text-indigo-700">Preventive</span><span>Approx. 20–50 mins</span></div>
+      </article>
+
+
+
+      <article class="bg-white rounded-lg shadow p-4 treatment-card" data-category="restorative" data-keywords="cleaning scaling gum laser hygiene">
+         <img src="assests/Flap_surgery.png" alt="Pediatric Dentistry" class="w-full h-40 object-cover rounded-md mb-3">
+        <button class="w-full text-left flex justify-between items-center treatment-toggle py-2" aria-expanded="false" aria-controls="panel-cleaning" id="toggle-cleaning">
+          <div>
+            <h3 class="font-semibold">Flap Surgery</h3>
+            <p class="text-sm text-gray-500">Surgical procedure to treat gum disease.</p>
+          </div>
+          <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div id="panel-cleaning" class="treatment-panel hidden text-sm text-gray-600 mt-3" role="region" aria-labelledby="toggle-cleaning" aria-hidden="true">
+         For advanced gum disease, flap surgery may be necessary. Our skilled team at Sakthi Dental 
+         Clinic performs this procedure by lifting the gum tissue to remove deep-seated plaque and 
+         bacteria, then repositioning it for optimal healing. This treatment helps prevent further 
+         periodontal issues and supports gum health. 
+        </div>
+        <div class="mt-3 flex items-center gap-3 text-xs text-gray-500">
+            <span class="px-2 py-1 rounded-full bg-emerald-50 text-emerald-700">Restorative</span>
+            <span>Approx. 20–40 mins</span></div>
+      </article>
+
+
+
+       <article class="bg-white rounded-lg shadow p-4 treatment-card" data-category="orthodontics" data-keywords="cleaning scaling gum laser hygiene">
+         <img src="assests/Aligner.png" alt="Pediatric Dentistry" class="w-full h-40 object-cover rounded-md mb-3">
+        <button class="w-full text-left flex justify-between items-center treatment-toggle py-2" aria-expanded="false" aria-controls="panel-cleaning" id="toggle-cleaning">
+          <div>
+            <h3 class="font-semibold">Clear Aligners</h3>
+            <p class="text-sm text-gray-500">Custom-made clear plastic trays to straighten teeth.</p>
+          </div>
+          <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div id="panel-cleaning" class="treatment-panel hidden text-sm text-gray-600 mt-3" role="region" aria-labelledby="toggle-cleaning" aria-hidden="true">
+         For a discreet alternative to traditional braces, Sakthi Dental Clinic offers clear aligners. These 
+         transparent, removable trays gradually shift your teeth into perfect alignment, providing comfort 
+         and flexibility throughout your orthodontic journey.
+        </div>
+        <div class="mt-3 flex items-center gap-3 text-xs text-gray-500">
+            <span class="px-2 py-1 rounded-full bg-fuchsia-50 text-fuchsia-700">Orthodontics</span>
+            <span>Approx. 10–30 mins</span></div>
+      </article>
+    </section>
+
+    <p class="text-sm text-gray-500 mt-6">For more treatments (veneers, root canals, pediatric dentistry, laser surgeries), contact us or view our full list on the homepage.</p>
+  </main>
 
   <!-- Floating Actions -->
   <a href="tel:+919862890897" class="fixed bottom-6 right-6 bg-green-600 text-white rounded-full shadow-lg px-4 py-3 hover:bg-green-700 transition" aria-label="Call Sakthi Dental Clinic">Call</a>
   <button id="backToTop" class="hidden fixed bottom-6 left-6 bg-gray-800 text-white rounded-full shadow-lg px-3 py-2 text-sm hover:bg-black transition" aria-label="Back to top">Top</button>
 
-  <!-- JS -->
   <script src="css/js/script.js" defer></script>
 </body>
 </html>
